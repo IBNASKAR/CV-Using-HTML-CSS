@@ -1,6 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+/*   */
+.skills-info{
+    /* position: relative; */
+    /* top:1px; */
+    height: 600px;
+    /* padding-top: 15px; */
+    /* background-color: blue; */
+}
+.tech-skills {
+    font-size: 1.1em;
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 30px;
+    /* background-color: rgb(43, 180, 134); */
+    
+    /* position: absolute;
+      top: 15%; */
+}
+.tech-skills h3 {
+    width: 100%;
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.tech-skills  span {
+    display: block;
+    padding: 9px;
+    margin: 5px;
+    text-decoration: none;
+}
+.tech-skills  span i {
+    padding-right: 20px;
+}
 
-.image img{
-    width: 660px ; 
-    height: 580px ;
-    background-size: cover;
+.tech-skills p {
+    margin-left : 30px;
+    padding-top: 5px;
+}
+
+
+.per-skills {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    float: left;
+    font-size: 1.1em;
+    /* background-color: rgb(13, 56, 39); */
+}
+.per-skills  h3 {
+    padding:5px;
+    margin: 5px;
+}
+.per-skills  a {
+    display: block;
+    padding:5px;
+    padding-top: 6px;
+    margin: 10px;
+    text-decoration: none;
+}
+.per-skills  a i {
+    padding-right: 20px;
+}
+
+.clr {
+        clear: both;
 }

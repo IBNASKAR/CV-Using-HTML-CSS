@@ -46,19 +46,19 @@
 }
 .facebook:hover {
     color: rgb(8, 89, 182); 
-    background-color: rgb(163, 163, 163); 
+    /* background-color: rgb(163, 163, 163);  */
 }
 .linkedin:hover {
     color: rgb(8, 89, 182); 
-    background-color: rgb(163, 163, 163); 
+    /* background-color: rgb(163, 163, 163);  */
 }
 .github:hover {
     color: rgb(233, 237, 241);
-    background-color: rgb(163, 163, 163); 
+    /* background-color: rgb(163, 163, 163);  */
 
 }
 .github a:hover {
-    color: rgb(247, 249, 250);
+    color:black;
     /* background-color: rgb(163, 163, 163);  */
 
 }

@@ -103,6 +103,30 @@
     padding: 20px;
 }
 
+.line-html {
+    height: 4px;
+    width: 100%;
+    background-color: #1e3ff5;
+
+}
+.line-css {
+    height: 4px;
+    width: 85%;
+    background-color: #1e3ff5;
+
+}
+.line-php {
+    height: 4px;
+    width: 80%;
+    background-color: #1e3ff5;
+
+}
+.line-laravel {
+    height: 4px;
+    width: 80%;
+    background-color: #1e3ff5;
+
+}
 
 .clr {
         clear: both;

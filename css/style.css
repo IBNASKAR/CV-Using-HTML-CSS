@@ -8,17 +8,18 @@
 
 header>h1 {
     text-align: center;
-    background-color: #474747;
-    color: #fff;
+    background-color: #dddddd;
+    color: black;
     padding: 5px 0; 
-    border-bottom: #3a3838 solid 2px;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    /* border-bottom: #3a3838 solid 2px; */
     /* background-color: gray; */
 }
 .nav-bar{
     width: 100%;
     /* background-color: aqua; */
     text-align: center;
-    padding: 5px;
+    padding: 8px;
     border-bottom: #3a3838 solid 2px;
 }
 .nav-container{
@@ -69,6 +70,18 @@ height: 600px;
     float: left;
     border-right: #3a3838 solid 2px;
     background-color: #fff;
+    padding: 10px;
+}
+.left-side p {
+    font-size: 1.1em;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 30px;
+    width:65%;
+    margin: auto;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
 }
 .left-side img {
     width: 100%;
@@ -91,10 +104,23 @@ height: 600px;
 }
 .right-side{
     width: 25%;
+    height: 600px;
+    padding: 10px;
     float: right;
     border-left: #3a3838 solid 2px;
     background-color:#fff;
     
+}
+.right-side p {
+    font-size: 1.1em;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 30px;
+    width: 65%;
+    margin: auto;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
 }
 .right-side img {
     width: 100%;
