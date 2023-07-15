@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.clr {
+    clear: both;
+}
+.main-contact{
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 17%;
+    left: 4%;
+}
+.img-contact {
+    width: 45%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.img-contact img {
+    width: 100%;
+    /* border: rgba(0,0,0,0.2) solid 1px; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 50%;
+    /* background-size: cover; */
+}
+.social-icons {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-left: 20px;
+    /* background-color: rgb(12, 14, 14); */
+}
+.social-icons-a {
+    width: 33%;
+    float: left;
+    font-size: 50px;
+    padding: 20px;
+}
+.social-icons-a a {
+    color: rgb(37, 37, 37);
+}
+.social-icons-a a:hover {
+    color: rgb(8, 89, 182);
+}
+.facebook:hover {
+    color: rgb(8, 89, 182); 
+    background-color: rgb(163, 163, 163); 
+}
+.linkedin:hover {
+    color: rgb(8, 89, 182); 
+    background-color: rgb(163, 163, 163); 
+}
+.github:hover {
+    color: rgb(233, 237, 241);
+    background-color: rgb(163, 163, 163); 
+
+}
+.github a:hover {
+    color: rgb(247, 249, 250);
+    /* background-color: rgb(163, 163, 163);  */
+
+}

@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clr{
+    clear: both ;
+}
+
+.container {
+    padding-top: 30px;
+width: 100%;
+margin: auto;
+height: 580px;
+float: left;
+
+}
+
+.container img {
+    /*  */
+    background-size: cover;
+}

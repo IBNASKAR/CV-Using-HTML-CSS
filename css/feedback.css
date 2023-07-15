@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clr{
+    clear: both;
+}
+.main-feedback {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    
+
+}
+.main-feedback-elm {
+    position: absolute;
+    top: 30%;
+    left: 18%;
+}
+.textarea textarea {
+    border-radius: 30px;
+}
+.textarea textarea:hover {
+    border-radius: 2px;
+}
+
+.btn button{
+    color: #fdfdfd;
+    background-color: rgb(3, 34, 70);
+    margin: 15px;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 200px;
+    text-decoration: none;
+}
+.btn button:hover {
+    background-color: rgb(31, 18, 224);
+}

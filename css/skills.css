@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+    height: 600px;
+     /* background-color: blue;  */
+ } 
+
+ .skill{
+    
+    height: 100%;
+    margin: auto;
+ }
+.skill img{
+    height: 99%;
+    width: 100% ; 
+    background-size: cover;
+}
+/* .skill::before {
+    content: url(../img/webdev.png);
+
+}  */

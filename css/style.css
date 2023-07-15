@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+80s+Fade&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header>h1 {
+    text-align: center;
+    background-color: #474747;
+    color: #fff;
+    padding: 5px 0; 
+    border-bottom: #3a3838 solid 2px;
+    /* background-color: gray; */
+}
+.nav-bar{
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 5px;
+    border-bottom: #3a3838 solid 2px;
+}
+.nav-container{
+    width: 90%;
+    margin: auto;
+}
+.nav-bar div {
+    display: inline-block;
+    font-size: 1.1em;
+    padding: 5px;
+}
+.nav-bar div a {
+text-decoration: none;
+color: black;
+}
+.nav-bar div a:hover {
+    text-decoration:underline ;
+    color: rgb(8, 6, 122);
+    }
+
+.section-content {
+    width: 100%;
+    /* background-color: forestgreen;  */
+}
+
+.content {
+float: left;
+border: 2px solid #fff;
+/* width: 25%; */
+height: 600px;
+/* background-color: aquamarine; */
+
+}
+.clr {
+ clear: both;
+}
+/* .content .main-side{
+    width: 50%;
+    background-color: rgb(2, 1, 1);
+    float: left;
+    
+   
+} */
+
+
+.left-side{
+    width: 25%;
+    float: left;
+    border-right: #3a3838 solid 2px;
+    background-color: #fff;
+}
+.left-side img {
+    width: 100%;
+    height: 100%;
+    border: #fff solid 2px;
+    border-radius: 5%; 
+    background-size: cover;
+}
+.main-side{
+    width: 50%;
+    /* background-color: rgb(206, 145, 12); */
+    border: #fff solid 2px;
+    border-radius: 5%; 
+    float: left;
+}
+.main-side iframe {
+    width: 100%;
+    border: none;
+    text-decoration: none;
+}
+.right-side{
+    width: 25%;
+    float: right;
+    border-left: #3a3838 solid 2px;
+    background-color:#fff;
+    
+}
+.right-side img {
+    width: 100%;
+    height: 100%;
+    border: #fff solid 2px;
+    border-radius: 5%; 
+    background-size: cover;
+}

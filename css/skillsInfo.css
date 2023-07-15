@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+/*   */
+.skills-info{
+    position: relative;
+    top:110px;
+    /* padding-top: 15px; */
+    /* background-color: blue; */
+  }
+  .tech-skills {
+      width: 50%;
+      float: left;
+      /* background-color: aquamarine; */
+      
+      /* position: absolute;
+      top: 15%; */
+  }
+
+  .tech-skills p {
+      margin: 5px;
+  }
+ 
+  .tech-skills span {
+      position: absolute; 
+      left: 45%;
+  }
+  
+  .tech-skills-info{
+      padding: 20px;
+  }
+
+
+
+.per-skills {
+    width: 50%;
+    height: 353px;
+    padding-top: 40px;
+    float: left;
+    /* background-color: rgb(13, 56, 39); */
+}
+/* .per-skills p {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+} */
+
+.circle-div  {
+    width: 100%;
+    margin: 10%;
+    /* float: left; */
+    border: #fcfcfc solid 2px;
+    border-radius: 50%;
+    padding: 10px;
+    /* background-color: rgb(255, 0, 0); */
+}
+.one {
+    border-right: #0725ce solid 2px;
+    border-bottom: #0725ce solid 2px;
+    border-top: #0725ce solid 2px;
+
+}
+.two {
+    border-right: #0725ce solid 2px;
+    border-left: #0725ce solid 2px;
+    border-top: #0725ce solid 2px;
+
+}
+.three {
+    border-left: #0725ce solid 2px;
+    border-bottom: #0725ce solid 2px;
+    border-top: #0725ce solid 2px;
+
+}
+.four {
+    border-right: #0725ce solid 2px;
+    border-bottom: #0725ce solid 2px;
+    border-left: #0725ce solid 2px;
+
+}
+
+.circle-div p{
+    display: block;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+}
+.p-div p {
+    width: 100%;
+    margin: 10%;
+    /* padding-top: 20px; */
+    text-align: center;
+    /* background-color: aqua; */
+}
+.per-skills-info{
+    /* background-color: azure; */
+    width: 50%;
+    float: left;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.clr {
+        clear: both;
+}

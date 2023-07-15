@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+    /* background-color: blue; */
+  
+}
+
+h1{
+    padding-top: 25px;
+    text-align: center;
+}
+.main-card {
+    width: 90%;
+    position: relative;
+    top: 17%;
+    margin: auto;
+}
+.card {
+    width: 50%;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    /* background-color: aqua; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: left;
+    position: relative;
+    top: 25%;
+}
+.card img:hover {
+    width: 105% ;
+    /* border: #fff solid 2px; */
+    border-radius: 5px;
+}
+/* .card img :hover {
+    width: 100%;
+} */
+.card img {
+    width: 100% ;
+    /* border: #fff solid 2px; */
+    border-radius: 5px;
+}
+.container {
+    padding: 10px;
+}
+.container h4 {
+    padding: 10px 0;
+}
+.clr
+{
+    clear: both;
+}
